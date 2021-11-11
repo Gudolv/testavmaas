@@ -41,7 +41,7 @@ snap:
     - snap install maas
     - snap install lxd
     - snap install maas-test-db
-    - snapp install juju --classic
+    - snap install juju --classic
 runcmd:
 # Fetch IPv4 address from ens4 device, setup forwarding and NAT
 #- export IP_ADDRESS=$(ip -4 addr show ens4 | grep -oP '(?<=inet\s)\d+(\.\d+){3}')
